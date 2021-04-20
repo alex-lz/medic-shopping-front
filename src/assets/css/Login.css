@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+.login-form {
+    max-width: 500px;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    /*box-shadow: 5px 10px #888888;*/
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.login-form:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+  h1,h2,h3,h4,h5,h6,label,span {
+    font-weight: 500;
+    font-family: 'Fira Sans', sans-serif;
+  }
+
+h3 {
+    text-align: center;
+    color: #0a7ddb !important;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 0 0 rgb(8, 99, 173);
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+
+/* Profile view */
+.login-form img {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+.cen {
+  text-align: center;
+}
