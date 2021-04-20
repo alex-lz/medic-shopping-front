@@ -7,6 +7,7 @@ import AppNavbar from './components/AppNavbar';
 import Login from './views/Login';
 import SignUp from './views/SignUp';
 import Profile from './views/profile/profile';
+import Catalog from './views/catalog/Catalog';
 // import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
@@ -24,6 +25,7 @@ class App extends Component {
                 <Route path='/sign-in' exact={true} component={Login}/>
                 <Container fluid>
                 <Route path='/profile-page' component={Profile}/>
+                <Route path='/catalog' exact={true} component={Catalog}/>
                 </Container>
               </Switch>          
             </div>

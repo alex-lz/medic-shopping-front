@@ -32,6 +32,9 @@ class AppNavbar extends Component {
       Options
     </DropdownToggle>
     <DropdownMenu right>
+    <DropdownItem href={"/catalog"}>
+        Catálogo
+      </DropdownItem>
       <DropdownItem divider />
       <DropdownItem href={"/profile-page"}>
         Perfil
